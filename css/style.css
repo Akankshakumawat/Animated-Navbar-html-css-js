@@ -1,0 +1,142 @@
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins',sans-selif;
+}
+html
+{
+	scroll-behavior: smooth;
+}
+body
+{
+	min-height: 1000px;
+}
+header
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px 100px;
+	z-index: 1000;
+	transition:0.6s;
+}
+header.sticky
+{
+	padding: 5px 100px;
+	background:#fff;
+	border-bottom:1px solid rgba(0,0,0,.1);
+}
+header .logo
+{
+	position:relative;
+	font-width:700;
+	color:#fff;
+	text-decoration: none;
+	font-size:1.5em;
+	text-transform:uppercase;
+	transition: 0.6s;
+	letter-spacing: 2px;
+}
+header ul
+{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header ul li
+{
+	position: relative;
+	list-style: none;
+
+}
+header ul li a
+{
+ position: relative;
+ margin:  0  15px;
+ text-decoration: none;
+ color: #fff;
+ letter-spacing: 2px;
+ font-weight: 300;
+ transition: 0.6s;
+
+}
+header.sticky .logo,
+header.sticky ul li a
+{
+	color:#000;
+
+}
+.banner
+{
+	position: relative;
+	min-height: 100vh;
+	width: 100%;
+	background: url('../img/bg.jpeg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content:center;
+	align-items:center; 
+}
+.banner h2
+{
+	color:#fff;
+	font-size: 60px;
+	text-transform: uppercase;
+	text-align: center;
+	line-height:1em; 
+}
+.banner h2 span
+{
+	color: #4978ff;
+}
+.sec
+{
+	background:#fff;
+	padding: 100px;
+	min-height: 100vh;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+.sec .content
+{
+	position: relative;
+	text-align: center;
+	width: 100%
+}
+.mxw800
+{
+	max-width: 800px;
+	margin: 0 auto; 	
+}
+h3
+{
+	font-size: 40px;
+	font-weight: 200;
+	margin-bottom: 10px;
+}
+p
+{
+	position: relative;
+	font-size: 18px;
+	font-weight: 300;
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+}
+.btn
+{
+	position: relative;
+	display: inline-block;
+	padding: 10px 30px;
+	background:#000;
+	text-decoration: none;
+	color:#fff;
+}

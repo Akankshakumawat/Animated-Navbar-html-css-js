@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title> Brand!website</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+</head>
+<body>
+<div class="container">
+	<!--header-->
+	<header id="header" >
+		<a href="#" class="logo">LOGO</a>
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#portifilo">Portifilo</a></li>
+			<li><a href="team">Team</a></li>
+			<li><a href="#contact">Contact</a></li>
+
+		</ul>
+	</header>
+	<!--banner-->
+	<selction class="banner" id="home">
+		<h2>We Make <br><span>Brands</span> Matter</h2>
+	</selction>
+	<!--about-->
+	<section class="sec" id="about">
+		<div class="content">
+			<div class="mxw800">
+				<h3>Who We Are</h3>
+				<p>People tend to think that "About Us" pages have to sound formal to gain credibility and trust. But most people find it easier to trust real human beings, rather than a description that sounds like it came from an automaton. Trying to sound too professional on your "About Us" page results in stiff, “safe” copy and design -- the perfect way to make sure your company blends in with the masses.
+                Instead, Eight Hour Day showcases the people behind the company and humanizes its brand. Introducing the founders by name and featuring the photos of them on the "About Us" page drives home the point that Nathan and Katie are -- as they so astutely put it -- "two individuals with a passion for creativity -- creativity makes us happy.</p>
+
+                <a href="#" class="btn">Read Our Story</a>
+			</div>
+		</div>
+		
+	</section> 
+	<!--portifilo-->
+	<!--team-->
+	<!--contact-->
+	<script type="text/javascript">
+		window.addEventListener("scroll", function(){
+			var header = document.querySelector("header");
+			header.classList.toggle("sticky", window.scrollY > 0) ;
+		})
+	</script>
+</div>
+</body>
+</html>
